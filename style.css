@@ -22,7 +22,7 @@ body{
 
 header{
   height: 100vh;
-  padding: 0 40px 0 60px;
+  /* padding: 0 40px 0 60px; */
 }
 
 nav{
@@ -61,17 +61,45 @@ nav ul{
   font-size: 20px;
 }
 
-
-/* .image-top{
+.layout{
   display: flex;
-  display: flex;
-  height: 50vh;
-  float: right;
-  background-color: darkmagenta;
-  
-
-} */
-main{
-  
-  color:#23BE53
+  height: 84vh;
 }
+
+.card{
+  display: flex;
+  align-items: center;
+  width: 50vw;
+  padding-left:9vw;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 40vh;
+}
+
+.card .pipe{
+  font-weight: 700;
+  color: #23BE53;
+}
+
+.card span{
+  font-weight: 700;
+  margin-left: 10px;
+  
+}
+
+.descrition {
+  width: 30vw;
+}
+
+h1{
+  color: #23BE53;
+}
+
+.images{
+  width: 50vw;
+}
+
