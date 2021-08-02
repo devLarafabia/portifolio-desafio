@@ -64,13 +64,15 @@ nav ul{
 .layout{
   display: flex;
   height: 84vh;
+  
 }
 
 .card{
+  width: 50vw;
   display: flex;
   align-items: center;
-  width: 50vw;
   padding-left:9vw;
+  
 }
 
 .card-body{
@@ -78,6 +80,7 @@ nav ul{
   flex-direction: column;
   justify-content: space-around;
   height: 40vh;
+  
 }
 
 .card .pipe{
@@ -101,5 +104,39 @@ h1{
 
 .images{
   width: 50vw;
+  position: relative;
+  /* background-color: cornflowerblue; */
+}
+
+.back .vector{
+  height: 50vh;
+  transform: rotate(-12deg);
+  position: absolute;
+  left: 4vw;
+  top: 25vh;
+}
+
+.back .top{
+  transform: rotate(10deg);
+  position: absolute;
+  left: 4vw;
+  top: 20vh;
+}
+
+.html{
+  position: absolute;
+  top: 4vh;
+
+}
+.css{
+  position: absolute;
+  right: 4vw;
+  top: 4vh;
+}
+
+.js{
+  position: absolute;
+  bottom: 1vh;
+  right: 35vw;
 }
 
