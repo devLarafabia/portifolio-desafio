@@ -22,7 +22,6 @@ body{
 
 header{
   height: 100vh;
-  /* padding: 0 40px 0 60px; */
 }
 
 nav{
@@ -41,30 +40,22 @@ nav ul{
   justify-content: space-between;
 }
 
-.center{
-  display: flex;
-  align-items: center;
-}
-
 .btn{
   background-color:#23BE53 ;
   border-radius: 30px;
   padding: 10px 24px;
-  
 }
 
 .menu{
-  /* background-color: darkred; */
   display: flex;
-  width: 50vh;
+  width: 80vh;
   justify-content: space-between;
   font-size: 20px;
 }
 
 .layout{
   display: flex;
-  height: 84vh;
-  
+  height: 100vh;
 }
 
 .card{
@@ -72,14 +63,14 @@ nav ul{
   display: flex;
   align-items: center;
   padding-left:9vw;
-  
+  height: 80vh;
 }
 
 .card-body{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 40vh;
+  height: 50vh;
   
 }
 
@@ -91,7 +82,6 @@ nav ul{
 .card span{
   font-weight: 700;
   margin-left: 10px;
-  
 }
 
 .descrition {
@@ -105,7 +95,6 @@ h1{
 .images{
   width: 50vw;
   position: relative;
-  /* background-color: cornflowerblue; */
 }
 
 .back .vector{
@@ -113,30 +102,42 @@ h1{
   transform: rotate(-12deg);
   position: absolute;
   left: 4vw;
-  top: 25vh;
+  top: 15vh;
 }
 
 .back .top{
   transform: rotate(10deg);
   position: absolute;
   left: 4vw;
-  top: 20vh;
+  top: 10vh;
 }
 
 .html{
   position: absolute;
   top: 4vh;
-
+  height: 10vh;
 }
 .css{
   position: absolute;
-  right: 4vw;
+  right: 11.5vw;
   top: 4vh;
+  height: 10vh;
 }
 
 .js{
   position: absolute;
-  bottom: 1vh;
-  right: 35vw;
+  bottom: 20vh;
+  left:10vw ;
+  height: 15vh;
+ 
 }
 
+/* .socials{
+  background-color: #060608;
+  background-color: darkmagenta;
+  height: 10vh;
+}
+
+section{
+  height: 100vh;
+} */
