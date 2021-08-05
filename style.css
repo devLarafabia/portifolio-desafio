@@ -146,6 +146,31 @@ h1{
 
 section{
   height: 100vh;
+  
+}
+
+.box{
+  display: flex;
+}
+
+
+
+.fundoOne{
+  display: flex;
+  justify-content: center;
+  transform: rotate(1deg);
+  /* background-color: seagreen; */
+  height: 50vh;
+  width: 50vw;
+}
+
+.fundothre{
+  display: flex;
+  transform: rotate(-25deg);
+  margin-right:50px ;
+  /* background-color: skyblue; */
+  height: 50vh;
+  width: 50vw;
 }
 
 footer{
