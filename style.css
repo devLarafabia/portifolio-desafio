@@ -146,11 +146,20 @@ h1{
 
 section{
   height: 100vh;
-  
 }
 
 .box{
   display: flex;
+  color: #E7DFDD;
+  position: relative;
+  align-items: center;
+  height: 100vh;
+  /* background-color: darkmagenta; */
+}
+
+.subtitulo{
+  /* background-color: darkorange; */
+  display: flexbox;
 }
 
 
@@ -160,17 +169,29 @@ section{
   justify-content: center;
   transform: rotate(1deg);
   /* background-color: seagreen; */
-  height: 50vh;
-  width: 50vw;
+  height: 60vh;
+  width: 60vw;
 }
 
 .fundothre{
   display: flex;
+  justify-content: center;
   transform: rotate(-25deg);
   margin-right:50px ;
   /* background-color: skyblue; */
   height: 50vh;
   width: 50vw;
+}
+
+.boxHtml{
+  
+  background-color:#060608;
+  height: 60vh;
+  width: 20vw;
+  position: absolute;
+  left: 30vh;
+  bottom: 0vh;
+  border-radius: 20px;
 }
 
 footer{
