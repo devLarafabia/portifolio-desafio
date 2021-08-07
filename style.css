@@ -186,12 +186,41 @@ section{
 .boxHtml{
   
   background-color:#060608;
-  height: 60vh;
+  height: 50vh;
   width: 20vw;
   position: absolute;
   left: 30vh;
-  bottom: 0vh;
+  bottom: 4vh;
   border-radius: 20px;
+}
+
+.boxCSS{
+  background-color:#060608;
+  height: 50vh;
+  width: 20vw;
+  position: absolute;
+  right: 30vh;
+  bottom: 4vh;
+  border-radius: 20px;
+}
+
+.boxJS{
+  background-color:#060608;
+  height: 50vh;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+
+.barra{
+  background-color: #23BE53;
+  height: 5vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  border-radius:4px ;
 }
 
 footer{
