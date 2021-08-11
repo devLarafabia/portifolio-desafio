@@ -20,7 +20,7 @@ body{
   background-repeat: no-repeat;
 }
 
-.xadrez::before, .xadrez::after {
+.box::before, .box::after {
   content:"";
   position: absolute;
   width: 100%;
@@ -30,7 +30,7 @@ body{
   background-image: repeating-linear-gradient(to right, #00000000 0, #00000000 10px, #ffffff04 10px, #ffffff04 20px);
 }
 
- .xadrez::after {
+ .box::after {
   background-image: repeating-linear-gradient(to bottom, #00000000 0, #00000000 10px, #ffffff04 10px, #ffffff04 20px);
   mix-blend-mode: difference;
 }
@@ -165,34 +165,31 @@ section{
 }
 
 .box{
-  display: flex;
-  color: #E7DFDD;
   position: relative;
-  align-items: center;
   height: 100vh;
+  padding: 10px;
 }
 
-.fundoOne{
-  display: flex;
-  justify-content: center;
+.backStacks{
+  position: relative;
+}
+
+.backStacks img:nth-child(1){
   transform: rotate(1deg);
-  height: 60vh;
-  width: 60vw;
+  height: 70vh;
+  margin-top: 10vh;
 }
 
-.fundothre{
-  display: flex;
-  justify-content: center;
-  transform: rotate(-25deg);
-  margin-right:50px ;
-  height: 50vh;
-  width: 50vw;
+.backStacks img:nth-child(2){
+  transform: rotate(-36deg);
+  height: 60vh;
+  margin-left: 6vw;
 }
 
 .boxCard{
   background-color:#060608;
   height: 50vh;
-  width: 20vw;
+  width: 18vw;
   border-radius: 20px;
   z-index: 1;
 }
@@ -200,19 +197,19 @@ section{
 .boxCard.html{
   position: absolute;
   left: 15vw;
-  bottom: 0;
+  bottom: 10vh;
 }
 
 .boxCard.css{
   position: absolute;
-  top: 0;
+  top: 10vh;
   left: 40%;
 }
 
 .boxCard.js{
   position: absolute;
   right: 15vw;
-  bottom: 0;
+  bottom: 10vh;
 }
 
 .imgBox{
